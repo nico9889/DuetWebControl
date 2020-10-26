@@ -66,10 +66,10 @@ export default {
 			title: 'Forza il reset software immediato (M112+M999)'
 		},
 		home: {
-			caption: 'Home {0}',
-			captionAll: 'Home tutto',
-			title: 'Home dell\'asse {0} (G28 {0})',
-			titleAll: 'Home di tutti gli assi (G28)'
+			caption: 'Azzera {0}',
+			captionAll: 'Azzera tutto',
+			title: 'Azzera l\'asse {0} (G28 {0})',
+			titleAll: 'Azzera tutti gli assi (G28)'
 		},
 		newDirectory: {
 			caption: 'Nuova cartella'
@@ -90,11 +90,11 @@ export default {
 		upload: {
 			gcodes: {
 				caption: 'Carica File G-Code',
-				title: 'Upload one or more G-Code files (drag&drop is supported as well)'
+				title: 'Carica uno o più file G-Code (il trascinamento è supportato)'
 			},
 			start: {
-				caption: 'Carica & Avvia',
-				title: 'Carica & Avvia uno o più file G-Code (il trascinamento è supportato)'
+				caption: 'Carica e Avvia',
+				title: 'Carica e Avvia uno o più file G-Code (il trascinamento è supportato)'
 			},
 			macros: {
 				caption: 'Carica File Macro',
@@ -496,8 +496,8 @@ export default {
 			caption: 'Controllo estrusione',
 			mix: 'Mix',
 			mixRatio: 'Ratio Mix:',
-			amount: 'Feed amount in {0}:',	// TODO: Need review
-			feedrate: 'Feedrate in {0}:',	// TODO: Need review
+			amount: 'Avanzamento in {0}:',	// TODO: Need review
+			feedrate: 'Velocità di avanzamento in {0}:',	// TODO: Need review
 			retract: 'Ritrai',
 			extrude: 'Estrudi'
 		},
@@ -696,7 +696,7 @@ export default {
 			turnEverythingOff: 'Spegni tutto',
 			allActiveTemperatures: 'Imposta tutte le temperature attive',
 			allStandbyTemperatures: 'Imposta tutte le temperature in attesa',
-			tool: 'Attrezo {0}',
+			tool: 'Attrezzo {0}',
 			loadFilament: 'Carica filamento',
 			changeFilament: 'Cambia filamento',
 			unloadFilament: 'Scarica filamento',
