@@ -10,6 +10,7 @@ import fr from './fr.js'
 import ru from './ru.js'
 import tr from './tr.js'
 import zh_cn from './zh_cn.js'
+import it from './it.js'
 
 Vue.use(VueI18n)
 
@@ -20,7 +21,8 @@ const messages = {
 	fr,
 	ru,
 	tr,
-	zh_cn
+	zh_cn,
+	it
 }
 
 /* eslint-disable */
